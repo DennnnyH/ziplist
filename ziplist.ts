@@ -17,12 +17,9 @@ function zipList(list1: unknown[], list2: unknown[]): unknown[] {
   return zippedList;
 }
 
-console.log(zipList(["a", "b", "c"], [1, 2, 3]));
+console.log(zipList(['a', 'b', 'c'], [1, 2, 3]));
 
-function zipListTheFunctionalWay(
-  list1: unknown[],
-  list2: unknown[],
-): unknown[] {
+function zipListTheFunctionalWay(list1: unknown[], list2: unknown[]): unknown[] {
   const zippedList: unknown[] = [];
   list1.forEach((element, index) => {
     zippedList.push(element, list2[index]);
@@ -30,4 +27,4 @@ function zipListTheFunctionalWay(
   return zippedList;
 }
 
-console.log(zipListTheFunctionalWay(["a", "b", "c"], [1, 2, 3]));
+console.log(zipListTheFunctionalWay(['a', 'b', 'c'], [1, 2, 3]));

@@ -16,7 +16,7 @@ function zipList(list1, list2) {
     }
     return zippedList;
 }
-console.log(zipList(["a", "b", "c"], [1, 2, 3]));
+console.log(zipList(['a', 'b', 'c'], [1, 2, 3]));
 function zipListTheFunctionalWay(list1, list2) {
     const zippedList = [];
     list1.forEach((element, index) => {
@@ -24,4 +24,4 @@ function zipListTheFunctionalWay(list1, list2) {
     });
     return zippedList;
 }
-console.log(zipListTheFunctionalWay(["a", "b", "c"], [1, 2, 3]));
+console.log(zipListTheFunctionalWay(['a', 'b', 'c'], [1, 2, 3]));
