@@ -1,10 +1,10 @@
 /*
-Write a function called zipList that accepts two lists of equal length and returns the result of 
-alternatingly taking elements. For example: given the two lists [‘a’, ‘b’, ‘c’] and [1, 2, 3], 
-the function should return [‘a’, 1, ‘b’, 2, ‘c’, 3]. zipList should use a loop. 
+Write a function called zipList that accepts two lists of equal length and returns the result of
+alternatingly taking elements. For example: given the two lists [‘a’, ‘b’, ‘c’] and [1, 2, 3],
+the function should return [‘a’, 1, ‘b’, 2, ‘c’, 3]. zipList should use a loop.
 Now write a function called zipListTheFunctionalWay that does the same thing using Array functions.
- Add console.log statements for each function to show the result. 
- For example, console.log(zipList(['a', 'b', 'c'], [1, 2, 3])); should output 
+ Add console.log statements for each function to show the result.
+ For example, console.log(zipList(['a', 'b', 'c'], [1, 2, 3])); should output
  ['a', 1, 'b', 2, 'c', 3]. Check the output in the browser console.
 */
 
